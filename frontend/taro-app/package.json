@@ -1,0 +1,45 @@
+{
+  "name": "multi-platform-app",
+  "version": "1.0.0",
+  "description": "Cross-platform base framework application",
+  "main": "index.js",
+  "scripts": {
+    "dev:weapp": "taro build --type weapp --watch",
+    "dev:h5": "taro build --type h5 --watch",
+    "build:weapp": "taro build --type weapp",
+    "build:h5": "taro build --type h5"
+  },
+  "keywords": [
+    "taro",
+    "react",
+    "cross-platform"
+  ],
+  "author": "Manus AI",
+  "license": "MIT",
+  "dependencies": {
+    "@nutui/nutui-react-taro": "^2.7.5",
+    "@nutui/icons-react-taro": "^0.1.0",
+    "@tarojs/components": "^4.1.9",
+    "@tarojs/runtime": "^4.1.9",
+    "@tarojs/taro": "^4.1.9",
+    "@tarojs/plugin-platform-weapp": "^4.1.9",
+    "@tarojs/plugin-platform-h5": "^4.1.9",
+    "@tarojs/router": "^4.1.9",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^5.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@tarojs/cli": "^4.1.9",
+    "@tarojs/webpack5-runner": "^4.1.9",
+    "@types/react": "^18.3.18",
+    "@types/webpack-env": "^1.18.5",
+    "babel-preset-taro": "^4.1.9",
+    "eslint": "^9.18.0",
+    "eslint-config-taro": "^4.1.9",
+    "sass": "^1.83.4",
+    "typescript": "^5.7.3",
+    "webpack": "^5.98.0"
+  }
+}
